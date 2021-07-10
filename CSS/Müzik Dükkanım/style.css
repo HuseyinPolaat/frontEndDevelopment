@@ -1,0 +1,20 @@
+.site{
+    font-family: "segoe UI";
+    
+}
+.navbar{
+    color: aqua;
+    text-align: center;
+    background-color: #f4f9f9;
+}
+
+.anaSection{
+    text-align: center  ;
+}
+
+.urunSection{
+    text-align: center;
+}
+.urunlerimiz img{
+    width: 400px;
+}
