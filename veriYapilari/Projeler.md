@@ -26,6 +26,31 @@ Dizi sıralandığı için tüm elemanlar best case kapsamındadır.
 4. [2,3,4,8,7,9,5,15,6]
 
 
+# PROJE 2
+
+## 1. Sorunun Cevabı
+
+1. [16,21,11,8,12,22]
+
+2. [16,21,11]   [8,12,22]
+
+3. [16]   [21,11]   [8,12]   [22]
+
+4. [16]   [11,21]   [8,12]   [22]
+
+5. [11,16,21]   [8,12,22]
+
+6. [8,11,12,16,21,22]
+
+
+## 2. Sorunun Cevabı
+
+1. Tüm gruplamalar yapıldıktan sonra tüm elemanlar tek tek ele alınacağı için her bir aşama için big(O) = n dir.
+2. Bu aşamalardaki işlemler her seferinde yarı yarıya düşer buradan 2^x = n diyebiliriz. 
+3. Tüm süreç için big(O) 2^x = n => logn = x olur. 
+4. Her aşamada n kadar iş yapıldığından big(O) = n * logn olur
+
+
 
 
 
