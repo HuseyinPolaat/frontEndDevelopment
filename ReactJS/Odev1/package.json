@@ -1,0 +1,20 @@
+{
+  "name": "odev",
+  "version": "1.0.0",
+  "description": "react, patika, ilk-odev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "react",
+    "patika",
+    "ilkodev"
+  ],
+  "author": "huseyin polat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
