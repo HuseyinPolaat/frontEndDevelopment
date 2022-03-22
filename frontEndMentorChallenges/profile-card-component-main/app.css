@@ -110,4 +110,13 @@ body{
     color: hsl(228, 45%, 44%);
 }
 
+@media(max-width: 720px) {
+    body {
+        background-image:url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top calc(-30em) left calc(-41em), bottom calc(-30em) right calc(-40em);
+    }
+    
+}
+
 
