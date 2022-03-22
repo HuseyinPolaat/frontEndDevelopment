@@ -1,0 +1,113 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Inspiration&family=Kumbh+Sans:wght@400;700&display=swap'
+);
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+
+:root{
+    --fontFamily: 'Kumbh Sans', sans-serif;
+    --fontSize: 18px;
+    --bgColor: hsl(185, 75%, 39%);
+}
+
+body{
+    font-family:var(--fontFamily);
+    background-color: var(--bgColor);
+    font-size: var(--fontSize);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top calc(-29em) left calc(-18em), bottom calc(-35em) right calc(-15em);
+    background-size: 70%;
+    height: 100vh;
+}
+
+.card{
+    align-self: center;
+    width: 375px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+.profile-bg{
+    width: 100%;
+    height: 37%;
+    border-radius: 15px 15px 0 0;
+    background-image: url('./images/bg-pattern-card.svg');
+}
+
+.personal-info {
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+    line-height: 1.5em;
+}
+
+.profile-photo{
+    margin-top: -15%;
+    align-self: center;
+    border-radius: 50%;
+    border: solid 5px #fff;
+}
+
+.personal-info p, .item p {
+    margin: 1em auto;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.lighter{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.city{
+    font-size: 15px;
+}
+
+.about-account{
+    width: 100%;
+    height: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-stats{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly; 
+}
+
+.small-size-font{
+    font-size: 13px;
+}
+
+.attribution{
+    width: 375px;
+    font-size: 11px; 
+    text-align: center;
+    background: transparent;
+    color: hsl(228, 45%, 44%);
+}
+
+

@@ -1,0 +1,134 @@
+body{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background:  hsl(0, 0%, 95%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+     
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 375px;
+    
+}
+
+.card img{
+    width: 50px;
+    margin: 40px 20px 0 50px;  
+}
+
+.card h1{
+    font-family: 'Big Shoulders Display', cursive ;
+    color: hsl(0, 0%, 95%);
+    margin: 30px 20px 0 50px; 
+}
+.card p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif; 
+    margin: 25px 50px 10px 50px; 
+}
+
+.card button{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 20px 50px 50px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%); 
+    
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+.sedans button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.suvs{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.suvs button{
+    color:hsl(184, 100%, 22%);
+}
+.suvs button:hover{
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    
+    border-radius: 0 0 10px 10px ;
+}
+
+.luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 600px) {
+    .container{
+        flex-direction: row;
+        padding: 150px 190px 125px 190px;
+    }
+    .sedans{
+        border-radius: 10px 0 0 10px;
+    }
+    .luxury{
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+
+
+
+
+
+
+/*
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+font-family: 'Big Shoulders Display', cursive;
+
+font-family: 'Lexend Deca', sans-serif;*/
