@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="main">
+    <!-- Rating state start -->
+    <div class="card rating-state">
+      <img class="card-icon" src="./images/icon-star.svg" alt="">
+      <h1 class="card-title">How did we do?</h1>
+      <p class="card-text">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <p class ="card-error-message">You need to select a rating for submit!</p>
+      <ul class="card-list">
+        <li class="card-list-item">1</li>
+        <li class="card-list-item">2</li>
+        <li class="card-list-item">3</li>
+        <li class="card-list-item">4</li>
+        <li class="card-list-item">5</li>
+      </ul>
+      <a href="#" class="card-button">SUBMIT</a>
+    </div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div class="card thank-you-state">
+    <img class="card-img" src="./images/illustration-thank-you.svg" alt="">
+    <p class="rating-info"></p>
+    <h1 class="card-title">Thank You!</h1>
+    <p class="card-text">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </p>
+  </div>
+  <!-- Thank you state end -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/hspolat">Huseyin Polat</a>.
+  </div>
+  </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
