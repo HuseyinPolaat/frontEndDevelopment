@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.mb-1{
+    margin-bottom: 1em;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.clr-soft-blue{
+    color: hsl(215, 51%, 70%);
+}
+
+.clr-white{
+    color: hsl(0, 0%, 100%);
+}
+
+.clr-cyan{
+    color: hsl(178, 100%, 50%);
+}
+
+main,
+.card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 340px;
+    padding: 1.5em;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    box-shadow: 0 2em 0em 1em hsl(228, 54%, 11%), 0em 2em .3em 3em hsl(221, 54%, 11%), -0em 2em .3em 3em hsl(221, 54%, 11%) ;
+}
+
+.img-area{
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.5em !important;
+}
+
+.card-image, .overlay{
+    max-width: 100%;
+    border-radius: .5em;
+}
+
+.overlay{
+    position: absolute;
+    top:0; left: 0; bottom: 4px; right: 0;
+    background-image: url('/images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card-title:hover, 
+.designer-name span:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%);
+}
+
+.nft-info, 
+.price, 
+.date, 
+.designer-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nft-info{
+    justify-content: space-between;
+}
+
+.nft-info p{
+    margin-left: .4em;
+}
+
+.price p{
+    font-weight: 400;
+}
+
+hr{
+    border: 0 none;
+    height: 1px;
+    color: wheat;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    width: 2.5em;
+    margin-right: 1em;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.attribution {
+    position: relative;
+    bottom: 5em;
+    font-size: 11px; text-align: center; 
+}
